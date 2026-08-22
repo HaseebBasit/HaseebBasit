@@ -1,0 +1,55 @@
+name: Generate GitHub Trophies
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  trophies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create assets directory
+        run: mkdir -p assets
+
+      - name: Generate GitHub Trophies
+        run: |
+          curl -L \
+          "https://github-profile-trophy.vercel.app/?username=HaseebBasit&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=2&column=4" \
+          -o assets/github-trophies.svg
+
+      - name: Verify trophy SVG
+        run: |
+          if [ ! -s assets/github-trophies.svg ]; then
+            echo "Trophy SVG was not generated."
+            exit 1
+          fi
+
+          if ! grep -q "<svg" assets/github-trophies.svg; then
+            echo "Generated file is not a valid SVG."
+            exit 1
+          fi
+
+      - name: Commit trophy SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/github-trophies.svg
+
+          if git diff --cached --quiet; then
+            echo "No trophy changes to commit."
+          else
+            git commit -m "Update GitHub trophies"
+            git push
+          fi
