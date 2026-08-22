@@ -2,8 +2,10 @@ name: Generate GitHub Analytics
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 3 * * *"
+
   workflow_dispatch:
+
   push:
     branches:
       - main
@@ -23,30 +25,28 @@ jobs:
         run: mkdir -p assets
 
       - name: Generate GitHub Stats
-        run: |
-          curl -L "https://github-readme-stats.vercel.app/api?username=HaseebBasit&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" \
-            -o assets/github-stats.svg
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=HaseebBasit&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true
+          path: assets/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Top Languages
-        run: |
-          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=HaseebBasit&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" \
-            -o assets/top-languages.svg
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=HaseebBasit&layout=compact&langs_count=8&theme=tokyonight&hide_border=true
+          path: assets/top-languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate GitHub Streak
-        run: |
-          curl -L "https://streak-stats.demolab.com/?user=HaseebBasit&theme=tokyonight&hide_border=true" \
-            -o assets/github-streak.svg
-
-      - name: Commit generated analytics
+      - name: Commit analytics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/
+          git add assets/github-stats.svg assets/top-languages.svg
 
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "Update GitHub analytics"
-            git push
-          fi
+          git diff --cached --quiet || git commit -m "Update GitHub analytics"
+
+          git push
