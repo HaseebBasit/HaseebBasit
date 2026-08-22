@@ -1,5 +1,3 @@
-# README.md
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,13,14,15,16&height=220&section=header&text=Haseeb%20Basit&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%7C%20Full%20Stack%20Development%20%7C%20Modern%20Web&descAlignY=58&descSize=18" width="100%"/>
 </p>
@@ -50,14 +48,14 @@ I am also expanding my knowledge across **full-stack development, software engin
 
 ### Engineering Focus
 
-- **Frontend Engineering** — responsive interfaces and component-based development
-- **Full Stack Development** — frontend, backend, APIs, databases, and deployment
-- **JavaScript Development** — interactive interfaces and client-side application logic
-- **Backend Development** — Node.js, Express.js, REST APIs
+- **Frontend Engineering** — Responsive interfaces and component-based development
+- **Full Stack Development** — Frontend, backend, APIs, databases, and deployment
+- **JavaScript Development** — Interactive interfaces and client-side application logic
+- **Backend Development** — Node.js, Express.js, and REST APIs
 - **Database Development** — MongoDB and Firebase
-- **Software Engineering** — clean code, debugging, architecture, and maintainability
-- **AI / ML** — building foundational knowledge and exploring AI-powered applications
-- **Cybersecurity** — developing foundational cybersecurity and networking knowledge
+- **Software Engineering** — Clean code, debugging, architecture, and maintainability
+- **AI / ML** — Building foundational knowledge and exploring AI-powered applications
+- **Cybersecurity** — Developing foundational cybersecurity and networking knowledge
 
 ### Open To
 
