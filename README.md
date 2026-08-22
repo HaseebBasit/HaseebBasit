@@ -1,9 +1,11 @@
+# README.md
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,13,14,15,16&height=220&section=header&text=Haseeb%20Basit&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%7C%20Full%20Stack%20Development%20%7C%20Modern%20Web&descAlignY=58&descSize=18" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=900&lines=Frontend+Developer;Full+Stack+Web+Development;Building+Responsive+User-Focused+Applications;API+Integration+%7C+Modern+Frontend;Software+Engineering+%7C+AI%2FML+%7C+Cybersecurity" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=900&lines=Frontend+Developer;Full+Stack+Web+Development;Building+Responsive+User-Focused+Applications;JavaScript+%7C+React+%7C+Node.js+%7C+MongoDB;Exploring+AI%2FML+%26+Cybersecurity" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -40,25 +42,26 @@
 
 Frontend Developer with hands-on experience building **responsive, user-focused web applications** using modern frontend technologies.
 
-I have a strong understanding of **UI development, component-based architecture, API integration, and responsive design**, with practical experience delivering projects and working in real-world development environments.
+I have practical experience with **UI development, component-based architecture, API integration, responsive design, REST APIs, backend services, and database-driven applications**.
 
-My engineering approach focuses on translating requirements into **clean, functional, maintainable, and scalable interfaces** while continuously improving performance, usability, and code quality.
+My approach is focused on translating requirements into **clean, functional, maintainable, and scalable interfaces** while continuously improving performance, usability, and code quality.
 
-I am actively expanding beyond frontend development into **full-stack engineering, backend architecture, AI/ML, cybersecurity, and modern software engineering practices**.
+I am also expanding my knowledge across **full-stack development, software engineering, AI/ML, cybersecurity, and modern application architecture**.
 
 ### Engineering Focus
 
-- **Software Engineering** — clean code, maintainable architecture, debugging, and development workflows
-- **Frontend Engineering** — responsive interfaces, component-based architecture, and user-focused UI
-- **Full Stack Development** — frontend, REST APIs, backend services, databases, and deployment
-- **AI / ML** — exploring artificial intelligence, machine learning, and AI-powered applications
-- **Product Engineering** — transforming requirements and ideas into functional digital products
-- **API Integration** — connecting modern interfaces with backend services and databases
-- **Performance & Usability** — improving responsiveness, maintainability, and overall user experience
+- **Frontend Engineering** — responsive interfaces and component-based development
+- **Full Stack Development** — frontend, backend, APIs, databases, and deployment
+- **JavaScript Development** — interactive interfaces and client-side application logic
+- **Backend Development** — Node.js, Express.js, REST APIs
+- **Database Development** — MongoDB and Firebase
+- **Software Engineering** — clean code, debugging, architecture, and maintainability
+- **AI / ML** — building foundational knowledge and exploring AI-powered applications
+- **Cybersecurity** — developing foundational cybersecurity and networking knowledge
 
 ### Open To
 
-`Frontend Development` · `Full Stack Development` · `Software Engineering` · `AI Engineering` · `Web Development` · `Open Source` · `Collaborative Projects` · `Technical Internships`
+`Frontend Development` · `Full Stack Development` · `Software Engineering` · `AI/ML Projects` · `Web Development` · `Open Source` · `Technical Internships` · `Collaborative Projects`
 
 ---
 
@@ -67,7 +70,7 @@ I am actively expanding beyond frontend development into **full-stack engineerin
 ### Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,java&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,java&theme=dark" alt="Languages"/>
 </p>
 
 <p>
@@ -80,7 +83,7 @@ I am actively expanding beyond frontend development into **full-stack engineerin
 ### Frontend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap&theme=dark" alt="Frontend"/>
 </p>
 
 <p>
@@ -93,12 +96,12 @@ I am actively expanding beyond frontend development into **full-stack engineerin
 ### Backend & Databases
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase&theme=dark" alt="Backend and Databases"/>
 </p>
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white"/>
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
 </p>
@@ -106,7 +109,7 @@ I am actively expanding beyond frontend development into **full-stack engineerin
 ### Cloud, DevOps & Tooling
 
 <p>
-  <img src="https://skillicons.dev/icons?i=vercel,render,npm,git,github,figma&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=vercel,git,github,npm,figma&theme=dark" alt="Cloud and Tooling"/>
 </p>
 
 <p>
@@ -124,12 +127,12 @@ I am actively expanding beyond frontend development into **full-stack engineerin
 
 | Domain | Proficiency | Details |
 |---|:---:|---|
-| Artificial Intelligence | 🟣 Learning | Exploring AI concepts and practical applications |
-| Machine Learning | 🟣 Learning | Building foundational knowledge of machine learning concepts |
-| AI-Powered Applications | 🟣 Learning | Exploring integration of AI capabilities into modern web applications |
-| AI-Assisted Development | 🟣 Intermediate | Using AI tools to improve development workflows and problem solving |
-| Prompt Engineering | 🟣 Learning | Exploring structured prompting and AI-assisted workflows |
-| AI + Web Development | 🟣 Learning | Exploring how AI can be integrated into full-stack products |
+| Artificial Intelligence | Learning | Building foundational understanding of AI concepts |
+| Machine Learning | Learning | Exploring fundamental ML concepts and workflows |
+| AI-Powered Applications | Learning | Exploring AI integration into modern web applications |
+| AI-Assisted Development | Intermediate | Using AI tools to improve development and problem-solving workflows |
+| Prompt Engineering | Learning | Exploring structured prompting and AI-assisted workflows |
+| AI + Web Development | Learning | Exploring AI integration with full-stack applications |
 
 ---
 
@@ -140,27 +143,27 @@ I am actively expanding beyond frontend development into **full-stack engineerin
 
 <br>
 
-A full-stack CRUD management system built with a separated frontend and backend architecture. The project demonstrates REST API communication, database persistence, CRUD operations, and deployment-oriented development.
+A full-stack CRUD management application demonstrating frontend/backend separation, REST API integration, MongoDB persistence, and deployment workflows.
 
 | Metric | Details |
 |---|---|
 | **Stack** | JavaScript · Node.js · Express.js · MongoDB · REST API |
 | **Scale** | Full-stack CRUD application |
-| **Performance** | Lightweight REST-based client/server communication |
-| **Security** | Separated frontend and backend architecture |
-| **Impact** | Practical experience with API-driven full-stack architecture |
+| **Performance** | Lightweight REST-based architecture |
+| **Security** | Separated frontend and backend services |
+| **Impact** | Practical full-stack architecture and database integration |
 | **Repository** | [Backend](https://github.com/HaseebBasit/CRUD-MANAGEMENT-BACKEND) · [Frontend](https://github.com/HaseebBasit/CRUD-MANAGEMENT-FRONTEND) |
 
-### Engineering Scope
+**Engineering Scope**
 
-- User creation and management
+- Create users
+- Fetch users
+- Update users
+- Delete users
+- Delete all users
 - REST API integration
-- Fetching users from MongoDB
-- Update operations
-- Delete operations
-- Delete-all functionality
-- Express.js backend architecture
 - MongoDB persistence
+- Express.js backend
 - Frontend/backend separation
 - Render deployment
 
@@ -171,25 +174,25 @@ A full-stack CRUD management system built with a separated frontend and backend 
 
 <br>
 
-A responsive frontend application focused on interactive image navigation, DOM manipulation, event handling, and user-focused interface development.
+A responsive interactive image slider developed to strengthen JavaScript, DOM manipulation, event handling, and responsive frontend development.
 
 | Metric | Details |
 |---|---|
-| **Stack** | HTML5 · CSS · JavaScript |
+| **Stack** | HTML5 · CSS3 · JavaScript |
 | **Scale** | Frontend web application |
 | **Performance** | Lightweight client-side implementation |
-| **Security** | No backend data dependency |
-| **Impact** | Strengthened JavaScript and interactive UI development |
-| **Repository** | [GitHub](https://github.com/HaseebBasit/Image-Slider) |
+| **Security** | No backend dependency |
+| **Impact** | Strengthened JavaScript and interactive UI skills |
+| **Repository** | [Live Project](https://haseebbasit.github.io/Image-Slider/) · [GitHub](https://github.com/HaseebBasit) |
 
-### Engineering Scope
+**Engineering Scope**
 
 - Interactive image navigation
 - DOM manipulation
-- JavaScript event handling
-- Responsive interface
-- Client-side state handling
-- User interaction design
+- Event handling
+- Responsive design
+- Client-side logic
+- User interaction
 
 </details>
 
@@ -198,18 +201,18 @@ A responsive frontend application focused on interactive image navigation, DOM m
 
 <br>
 
-A browser-based calculator created to strengthen programming logic, JavaScript event handling, DOM manipulation, and responsive frontend development.
+A browser-based calculator built to strengthen JavaScript programming logic, DOM manipulation, event handling, and responsive UI development.
 
 | Metric | Details |
 |---|---|
-| **Stack** | HTML5 · CSS · JavaScript |
+| **Stack** | HTML5 · CSS3 · JavaScript |
 | **Scale** | Client-side web application |
 | **Performance** | Lightweight browser execution |
 | **Security** | Fully client-side |
-| **Impact** | Strengthened JavaScript logic and frontend fundamentals |
+| **Impact** | Strengthened JavaScript fundamentals |
 | **Repository** | [GitHub](https://github.com/HaseebBasit) |
 
-### Engineering Scope
+**Engineering Scope**
 
 - Arithmetic operations
 - User input handling
@@ -225,25 +228,25 @@ A browser-based calculator created to strengthen programming logic, JavaScript e
 
 <br>
 
-A real-time digital clock application developed to practice JavaScript timing functions, DOM updates, responsive UI, and client-side application logic.
+A real-time digital clock application built to practice JavaScript timing functions, dynamic DOM updates, and responsive interface development.
 
 | Metric | Details |
 |---|---|
-| **Stack** | HTML5 · CSS · JavaScript |
+| **Stack** | HTML5 · CSS3 · JavaScript |
 | **Scale** | Client-side application |
 | **Performance** | Real-time browser updates |
-| **Security** | No external backend dependency |
+| **Security** | No external backend |
 | **Impact** | Strengthened JavaScript timing and DOM manipulation |
 | **Repository** | [GitHub](https://github.com/HaseebBasit) |
 
-### Engineering Scope
+**Engineering Scope**
 
-- Real-time clock updates
-- JavaScript timing functions
+- Real-time updates
+- JavaScript timing
 - DOM manipulation
-- Responsive interface
+- Dynamic content
+- Responsive UI
 - Client-side logic
-- Dynamic content updates
 
 </details>
 
@@ -256,14 +259,14 @@ A responsive Ramadan-themed web experience built to practice frontend layout, st
 
 | Metric | Details |
 |---|---|
-| **Stack** | HTML5 · CSS · JavaScript |
+| **Stack** | HTML5 · CSS3 · JavaScript |
 | **Scale** | Responsive frontend application |
 | **Performance** | Lightweight client-side implementation |
 | **Security** | No backend dependency |
 | **Impact** | Strengthened responsive design and frontend development |
 | **Repository** | [GitHub](https://github.com/HaseebBasit) |
 
-### Engineering Scope
+**Engineering Scope**
 
 - Responsive UI
 - Frontend styling
@@ -282,16 +285,16 @@ A responsive Ramadan-themed web experience built to practice frontend layout, st
 
 **1 Month**
 
-Gained hands-on experience in a practical web development environment, working on development tasks while strengthening frontend implementation, JavaScript, responsive design, and professional development workflows.
+Hands-on experience in a practical web development environment, strengthening frontend implementation, JavaScript, responsive design, debugging, and professional development workflows.
 
 **Scope of Work**
 
 - Developed responsive web interfaces
-- Implemented frontend functionality using JavaScript
-- Practiced DOM manipulation and event handling
-- Worked on practical development assignments
+- Implemented JavaScript functionality
+- Practiced DOM manipulation
+- Worked on practical development tasks
 - Improved debugging and problem-solving
-- Applied modern web development practices
+- Applied web development best practices
 
 **Skills**
 
@@ -303,14 +306,14 @@ Gained hands-on experience in a practical web development environment, working o
 
 **1 Month**
 
-Gained practical exposure to real-world web development workflows while strengthening frontend development, JavaScript implementation, responsive design, debugging, and code organization.
+Practical exposure to real-world web development workflows with a focus on frontend development, JavaScript, responsive interfaces, debugging, and code organization.
 
 **Scope of Work**
 
 - Worked on practical web development tasks
-- Implemented responsive frontend interfaces
+- Implemented responsive interfaces
 - Applied JavaScript functionality
-- Practiced clean and maintainable development
+- Practiced clean development
 - Strengthened debugging skills
 - Worked within a professional development environment
 
@@ -322,57 +325,46 @@ Gained practical exposure to real-world web development workflows while strength
 
 ## 🏆 Achievements
 
-<p align="center">
+<div align="center">
 
 | Recognition | Details |
 |---|---|
-| **LinkedIn Growth** | Built a professional network of **1,000+ followers** |
-| **HTML Essentials** | Achieved **95%** in HTML Essentials |
-| **JavaScript Essentials** | Achieved **80%** in JavaScript Essentials final test |
-| **JavaScript Quiz** | Successfully passed JavaScript Quiz 2 with **73%** |
-| **Web Development** | Built multiple practical frontend and full-stack projects |
-| **Full Stack Development** | Built a CRUD management system using frontend, backend, REST APIs, and MongoDB |
-| **Technical Certifications** | Completed Cisco Networking Academy learning tracks across web development, networking, and cybersecurity |
+| **HTML Essentials** | Achieved **95%** |
+| **JavaScript Essentials** | Achieved **80%** in final test |
+| **JavaScript Quiz 2** | Successfully passed with **73%** |
+| **LinkedIn** | Built a professional network of **1,000+ followers** |
+| **Full Stack Development** | Built a CRUD system using REST APIs and MongoDB |
+| **Web Development** | Built multiple practical frontend projects |
 
-</p>
+</div>
 
 ---
 
 ## 📜 Certifications
 
-### AWS
-
-<p>
-  <img src="https://img.shields.io/badge/AWS-No%20Certification%20Listed-8B5CF6?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-</p>
-
-### Oracle
-
-<p>
-  <img src="https://img.shields.io/badge/Oracle-No%20Certification%20Listed-6366F1?style=for-the-badge&logo=oracle&logoColor=white"/>
-</p>
-
-### NPTEL
-
-<p>
-  <img src="https://img.shields.io/badge/NPTEL-No%20Certification%20Listed-7C3AED?style=for-the-badge&logo=academia&logoColor=white"/>
-</p>
-
-### Cisco
+### Cisco Networking Academy
 
 <p>
   <img src="https://img.shields.io/badge/Cisco%20Networking%20Academy-0D47A1?style=for-the-badge&logo=cisco&logoColor=white"/>
+</p>
+
+<p>
   <img src="https://img.shields.io/badge/HTML%20Essentials-95%25-8B5CF6?style=flat-square&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS%20Essentials-6366F1?style=flat-square&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript%20Essentials-80%25-7C3AED?style=flat-square&logo=javascript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Basics%20of%20Cyber%20Security-4F46E5?style=flat-square&logo=cisco&logoColor=white"/>
   <img src="https://img.shields.io/badge/CCST%20Networking-4338CA?style=flat-square&logo=cisco&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Basics%20of%20Cyber%20Security-4F46E5?style=flat-square&logo=cisco&logoColor=white"/>
 </p>
 
-### SMIT / Saylani
+### SMIT
 
 <p>
   <img src="https://img.shields.io/badge/SMIT-Web%20Development-8B5CF6?style=for-the-badge&logo=html5&logoColor=white"/>
+</p>
+
+### Saylani
+
+<p>
   <img src="https://img.shields.io/badge/Saylani-Modern%20Web%20%26%20App%20Development-6366F1?style=for-the-badge&logo=javascript&logoColor=white"/>
 </p>
 
@@ -400,12 +392,12 @@ Gained practical exposure to real-world web development workflows while strength
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HaseebBasit&theme=dark&hide_border=false&include_all_commits=false&count_private=false" height="180"/>
-  <img src="https://streak-stats.demolab.com/?user=HaseebBasit&theme=dark&hide_border=false" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=HaseebBasit&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="180"/>
+  <img src="https://streak-stats.demolab.com/?user=HaseebBasit&theme=tokyonight&hide_border=true" height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HaseebBasit&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HaseebBasit&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" height="180"/>
 </p>
 
 ---
@@ -413,7 +405,7 @@ Gained practical exposure to real-world web development workflows while strength
 ## 🏅 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=HaseebBasit&theme=discord&no-frame=true&no-bg=true&margin-w=8&row=2&column=4" width="850"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=HaseebBasit&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=2&column=4" width="850"/>
 </p>
 
 ---
@@ -429,11 +421,7 @@ Gained practical exposure to real-world web development workflows while strength
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HaseebBasit/HaseebBasit/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HaseebBasit/HaseebBasit/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/HaseebBasit/HaseebBasit/output/github-contribution-grid-snake-dark.svg" width="100%">
-  </picture>
+  <img src="https://raw.githubusercontent.com/HaseebBasit/HaseebBasit/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%"/>
 </p>
 
 ---
@@ -454,10 +442,9 @@ Learning:
 
 Building:
   - Full Stack Web Applications
-  - CRUD Applications
   - REST APIs
+  - CRUD Applications
   - Responsive User Interfaces
-  - Modern Frontend Projects
   - API-driven Applications
 
 Exploring:
@@ -466,14 +453,15 @@ Exploring:
   - AI-powered Web Applications
   - Backend Architecture
   - Cybersecurity
+  - Cloud Deployment
   - Performance Optimization
-  - Modern Cloud Deployment
 
 Open To:
-  - Frontend Development Opportunities
+  - Frontend Development
   - Full Stack Development
-  - Software Engineering Opportunities
+  - Software Engineering
   - AI / ML Projects
-  - Web Development Projects
-  - Open Source Collaboration
+  - Web Development
+  - Open Source
   - Technical Internships
+  - Collaborative Projects
