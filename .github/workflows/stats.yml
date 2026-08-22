@@ -1,0 +1,52 @@
+name: Generate GitHub Analytics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create assets directory
+        run: mkdir -p assets
+
+      - name: Generate GitHub Stats
+        run: |
+          curl -L "https://github-readme-stats.vercel.app/api?username=HaseebBasit&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" \
+            -o assets/github-stats.svg
+
+      - name: Generate Top Languages
+        run: |
+          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=HaseebBasit&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" \
+            -o assets/top-languages.svg
+
+      - name: Generate GitHub Streak
+        run: |
+          curl -L "https://streak-stats.demolab.com/?user=HaseebBasit&theme=tokyonight&hide_border=true" \
+            -o assets/github-streak.svg
+
+      - name: Commit generated analytics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update GitHub analytics"
+            git push
+          fi
