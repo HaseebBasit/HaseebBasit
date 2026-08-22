@@ -367,12 +367,12 @@ Practical exposure to real-world web development workflows with a focus on front
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HaseebBasit&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats"/>
-  <img src="https://streak-stats.demolab.com/?user=HaseebBasit&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak"/>
+  <img src="./assets/github-stats.svg" height="180" alt="GitHub Stats"/>
+  <img src="./assets/github-streak.svg" height="180" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HaseebBasit&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" height="180" alt="Top Languages"/>
+  <img src="./assets/top-languages.svg" height="180" alt="Top Languages"/>
 </p>
 
 ---
@@ -380,7 +380,7 @@ Practical exposure to real-world web development workflows with a focus on front
 ## 🏅 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=HaseebBasit&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=2&column=4" width="850" alt="GitHub Trophies"/>
+  <img src="./assets/github-trophies.svg" width="850" alt="GitHub Trophies"/>
 </p>
 
 ---
