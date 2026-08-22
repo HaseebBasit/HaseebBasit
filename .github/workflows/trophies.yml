@@ -6,6 +6,10 @@ on:
   schedule:
     - cron: "30 0 * * *"
 
+  push:
+    branches:
+      - main
+
 permissions:
   contents: write
 
@@ -17,14 +21,57 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate trophy SVG
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
         with:
-          username: HaseebBasit
-          output_path: assets/github-trophies.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          deno-version: v2.x
 
-      - name: Commit trophy SVG
+      - name: Clone GitHub Profile Trophy
+        run: |
+          git clone --depth 1 https://github.com/ryo-ma/github-profile-trophy.git /tmp/github-profile-trophy
+
+      - name: Create assets directory
+        run: mkdir -p assets
+
+      - name: Generate Trophy SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd /tmp/github-profile-trophy
+
+          deno run \
+            --allow-net \
+            --allow-env \
+            --allow-read \
+            --allow-write \
+            ./render_svg.ts \
+            HaseebBasit \
+            "$GITHUB_WORKSPACE/assets" \
+            tokyonight
+
+          echo "Generated files:"
+          ls -la "$GITHUB_WORKSPACE/assets"
+
+      - name: Rename generated trophy
+        run: |
+          find assets -type f -name "*.svg" -print
+
+          TROPHY_FILE=$(find assets -maxdepth 1 -type f -name "*.svg" | head -n 1)
+
+          if [ -z "$TROPHY_FILE" ]; then
+            echo "ERROR: Trophy SVG was not generated."
+            exit 1
+          fi
+
+          mv "$TROPHY_FILE" assets/github-trophies.svg
+
+      - name: Verify trophy
+        run: |
+          test -s assets/github-trophies.svg
+          grep -q "<svg" assets/github-trophies.svg
+          echo "Trophy SVG generated successfully."
+
+      - name: Commit trophy
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
