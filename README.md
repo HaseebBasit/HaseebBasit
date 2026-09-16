@@ -377,14 +377,6 @@ Practical exposure to real-world web development workflows with a focus on front
 
 ---
 
-## 🏅 GitHub Trophies
-
-<p align="center">
-  <img src="./assets/github-trophies.svg" width="850" alt="GitHub Trophies"/>
-</p>
-
----
-
 ## 📈 Contribution Activity
 
 <p align="center">
