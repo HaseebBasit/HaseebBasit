@@ -377,14 +377,6 @@ Practical exposure to real-world web development workflows with a focus on front
 
 ---
 
-## 📈 Contribution Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HaseebBasit&bg_color=0D1117&color=A78BFA&line=7C3AED&point=C4B5FD&area=true&hide_border=true&custom_title=Haseeb%20Basit%20-%20Contribution%20Activity" width="100%" alt="Contribution Activity"/>
-</p>
-
----
-
 ## 🐍 Contribution Snake
 
 <p align="center">
